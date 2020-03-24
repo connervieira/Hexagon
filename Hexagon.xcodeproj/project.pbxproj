@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		201FB28423119FBC008FB10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201FB28323119FBC008FB10D /* AppDelegate.swift */; };
 		201FB28623119FBC008FB10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201FB28523119FBC008FB10D /* ViewController.swift */; };
-		201FB28823119FBD008FB10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201FB28723119FBD008FB10D /* Assets.xcassets */; };
 		201FB28B23119FBD008FB10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201FB28923119FBD008FB10D /* Main.storyboard */; };
+		20504BDA23131DC200D8EAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20504BD923131DC200D8EAA9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		201FB28023119FBC008FB10D /* Hexagon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hexagon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		201FB28323119FBC008FB10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		201FB28523119FBC008FB10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		201FB28723119FBD008FB10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201FB28A23119FBD008FB10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		201FB28C23119FBD008FB10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201FB28D23119FBD008FB10D /* Hexagon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hexagon.entitlements; sourceTree = "<group>"; };
+		20504BD923131DC200D8EAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				201FB28323119FBC008FB10D /* AppDelegate.swift */,
 				201FB28523119FBC008FB10D /* ViewController.swift */,
-				201FB28723119FBD008FB10D /* Assets.xcassets */,
+				20504BD923131DC200D8EAA9 /* Assets.xcassets */,
 				201FB28923119FBD008FB10D /* Main.storyboard */,
 				201FB28C23119FBD008FB10D /* Info.plist */,
 				201FB28D23119FBD008FB10D /* Hexagon.entitlements */,
@@ -121,7 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201FB28823119FBD008FB10D /* Assets.xcassets in Resources */,
+				20504BDA23131DC200D8EAA9 /* Assets.xcassets in Resources */,
 				201FB28B23119FBD008FB10D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +280,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = V0LT.Hexagon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.V0LT.Hexagon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -299,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = V0LT.Hexagon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.V0LT.Hexagon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
