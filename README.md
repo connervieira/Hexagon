@@ -2,9 +2,6 @@
 Hexagon is a simple color picker for developers on MacOS. Hexagon supports HEX colors, RGB colors, and HTML color names.
 ![Hexagon Logo](https://v0lttech.com/assets/img/hexagonlogo.png)
 
-## License
-Licensed under the V0LT Source Code License: https://v0lttech.com/files/documents/licenses/VoltSourceCodeLicense.pdf
-
 ## Binaries
 A complied version can be downloaded on the Mac App Store. See https://v0lttech.com/hexagon.php
 
